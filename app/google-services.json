@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "770699061744",
+    "project_id": "capiforo",
+    "storage_bucket": "capiforo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770699061744:android:169b4c16b093dedf941535",
+        "android_client_info": {
+          "package_name": "com.alejandro.capiforofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770699061744-a9gliqoj7b8nt4igahp5nvpkrgvupl68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn_roQLV-AL7V9D_AA9ifAEa0ISp9-2T4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770699061744-a9gliqoj7b8nt4igahp5nvpkrgvupl68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
