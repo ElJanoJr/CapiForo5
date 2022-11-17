@@ -7,6 +7,6 @@
     <string name="Foro">Proximamente</string>
     <string name="title_home">Inicio</string>
     <string name="title_dashboard">Mapa</string>
-    <string name="title_notifications">Notificaciones</string>
+    <string name="title_notifications">Perfil</string>
     <string name="mapbox_access_token">pk.eyJ1IjoiZWxqYW5vanIiLCJhIjoiY2w5aDNzc2JqMGxncTNycWt5emxqbGp1diJ9.XH-vLJmdSD-OOHP0avSFZg</string>
 </resources>

@@ -57,10 +57,9 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:text="Ingresar"
-        android:onClick="Siguiente"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@drawable/button_rounded"
+        android:background="@drawable/button_border"
         app:layout_constraintTop_toBottomOf="@+id/ETContraseña" />
 
     <Button
@@ -77,35 +76,15 @@
         app:layout_constraintTop_toBottomOf="@+id/BotonLogin" />
 
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="32dp"
-        android:scaleType="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botonregistro"
-        app:srcCompat="@drawable/face" />
-
-    <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/white"
         android:scaleType="center"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botonregistro"
         app:srcCompat="@drawable/google2" />
 
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
-        android:scaleType="center"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toBottomOf="@+id/botonregistro"
-        app:srcCompat="@drawable/tuiter" />
 </androidx.constraintlayout.widget.ConstraintLayout>

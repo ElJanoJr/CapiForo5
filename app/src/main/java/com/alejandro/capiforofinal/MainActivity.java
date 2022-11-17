@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     Button botonregistro;
     EditText ETCorreo, ETContraseña;
     Button BotonLogin;
+    FirebaseUser firebaseUser;
 
     private FirebaseAuth firebaseAuth;
     private ProgressDialog progressDialog;
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         BotonLogin = findViewById(R.id.BotonLogin);
 
         firebaseAuth = FirebaseAuth.getInstance();
+        firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         progressDialog = new ProgressDialog(MainActivity.this);
         dialog = new Dialog(MainActivity.this);
 
@@ -101,8 +103,6 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
     }
-
-
     private Void NoSesion(){
         Button NoSesion;
         dialog.setContentView(R.layout.no_sesion);
@@ -118,4 +118,5 @@ public class MainActivity extends AppCompatActivity {
         dialog.show();
         return null;
     }
+
 }

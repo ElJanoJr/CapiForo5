@@ -21,13 +21,14 @@
             android:textSize="20dp"
             android:textColor="#000"
             android:gravity="center"
-            android:paddingTop="20dp"
+            android:paddingTop="120dp"
             />
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/registro"
+            android:backgroundTint="@color/white"
             android:layout_gravity="center"/>
 
 
